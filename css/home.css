@@ -1,0 +1,45 @@
+.c-item {
+    height: 100vh;
+    width: 100%;
+    
+  }
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed; /* Add your background image */
+      background-size: cover;
+  }
+  
+  .content {
+      margin-top: 80px; /* Space for the fixed navbar */
+      text-align: center;
+      color: #333;
+  }
+  .logo-img {
+      height: 100px; /* Adjust logo size */
+  }
+  .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px; /* Space between links */
+  }
+  
+  .nav-links li {
+      display: inline;
+  }
+  
+  .nav-links a {
+      text-decoration: none;
+      color: #343a40; /* Text color */
+      font-weight: bold;
+      transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+      color: #007BFF; /* Change color on hover */
+  }
